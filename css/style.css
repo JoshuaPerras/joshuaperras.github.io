@@ -41,28 +41,74 @@ footer a {}
 footer a:hover {}
 
 /* Splash Section */
-.splash {}
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.splash h1 {}
+.splash h1 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
 
-.splash img {}
+.splash img {
+    border-radius: 12px;
 
-.splash p {}
+}
+.splash .addy {
+    text-align: center;
+    background-color: #F0BB78;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.splash .intro{
+    background-color: #F0BB78;
+    max-width: 629.88px;
+    text-align: center;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* Horizontal Rules */
-hr {}
+hr {
+    border-color: #131010;
+    border: dashed;
+    border-width: 1px;
+}
 
 /* Sections */
-section {}
+.education {
+    display: flex;
+    flex-direction: column;
+    
+}
 
 /* Section Headings */
-section h2 {}
+section h2 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+
+.education .courses {
+    text-align: center;
+}
 
 /* Paragraph Styles */
-section p {}
+section p {
+    margin: 2px;
+    margin-left: 10px;
+}
 
 /* link styles */
-section a {}
+section a {
+    text-decoration: none;
+    color: #F0BB78;
+}
 section a:hover {}
 
 /* List Styles */
