@@ -107,16 +107,35 @@ section p {
 /* link styles */
 section a {
     text-decoration: none;
-    color: #F0BB78;
+    color: #333;
 }
-section a:hover {}
+section a:hover {
+    color: #b62001;
+
+}
 
 /* List Styles */
 ul {}
 
-dl {}
-dl dt{}
-dl dd{}
+dl {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #F0BB78;
+    box-shadow: 0px 5px 5px #543a1467;
+}
+dl dt{
+    font-size: 1.1rem;
+    /* color: #333; */
+    margin-bottom: 5px;
+}
+dl dd{
+    margin-bottom: 15px;
+    color: #151515;
+    padding-left: 15px;
+    border-left: 3px solid #543A14;
+}
 
 /* Project Section */
 .three-col {}
