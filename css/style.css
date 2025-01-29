@@ -219,14 +219,47 @@ dl dd{
 }
 
 /* Contact Page Styles */
-.one-col {}
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 84.4vh;
+}
 
-form {}
 
-form input, form textarea {}
 
-form input:focus, form textarea:focus {}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-form button {}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
-form button:hover {}
+form input, form textarea {
+    border-radius: 8px;
+    padding: 5px;
+    border: 1.5px solid #505C45;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #505C45;
+}
+
+form button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1.5px solid ;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #7B8D6A;
+}
