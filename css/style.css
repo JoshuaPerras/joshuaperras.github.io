@@ -263,3 +263,17 @@ form button:hover {
     cursor: pointer;
     background-color: #7B8D6A;
 }
+
+.thankyou {
+    text-align: center;
+}
+
+.thank-link {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.thank-link:hover {
+    color: white;
+}
